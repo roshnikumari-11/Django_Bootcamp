@@ -136,28 +136,28 @@ On Day 3, we focus on integrating our Django application with a database and tho
 
 5.  **Adding Data from Server Side**:
     * Use the Django Admin panel to manually add users and other data.
-      ![manually add users]([IMG/PIC1.png])
+      ![manually add users](IMG/PIC1.png)
 
 6.  **Adding Data from Client Side (Postman)**:
     * Use Postman to make `POST` requests to your signup endpoint.
-      ![adding data from client side]([IMG/PIC2.png])
+      ![adding data from client side](IMG/PIC2.png)
 
 7.  **Testing POST, GET, PUT, DELETE with Postman**:
 
     * **`POST` Request (`http://127.0.0.1:8000/signup/`)**:
-        ![Postman POST Request]([IMG/POST.png])
+        ![Postman POST Request](IMG/POST.png)
         *(Screenshot: Postman showing a successful POST request to the signup endpoint with request body and a 201 Created response.)*
 
     * **`GET` Request (`http://127.0.0.1:8000/getAllUser/`)**:
-        ![Postman GET Request]([IMG/GET.png])
+        ![Postman GET Request](IMG/GET.png)
         *(Screenshot: Postman showing a successful GET request to retrieve all users with a 200 OK response and a JSON array of user data.)*
 
     * **`PUT` Request (`http://127.0.0.1:8000/updateEmail/`)**:
-        ![Postman PUT Request]([IMG/PUT.png])
+        ![Postman PUT Request](IMG/PUT.png)
         *(Screenshot: Postman showing a successful PUT request to update a user's email with request body (e.g., user ID and new email) and a 200 OK response or similar success status.)*
 
     * **`DELETE` Request (`http://127.0.0.1:8000/deleteUser/<number>/`)**:
-        ![Postman DELETE Request]([IMG/DELETE.png])
+        ![Postman DELETE Request](IMG/DELETE.png)
         *(Screenshot: Postman showing a successful DELETE request to remove a user (replace `<number>` with an actual user ID) with a 204 No Content or 200 OK response indicating successful deletion.)*
 
 ---
