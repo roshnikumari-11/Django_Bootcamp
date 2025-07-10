@@ -1,4 +1,7 @@
-# Backend Bootcamp: Django REST API Development for LMS
+# 🖥️ Backend + Deployment Bootcamp (Django Framework)
+
+> **Organized by CIMAGE Group of Institutions**  
+> **Taught by: Praveen Sir**  
 
 ---
 
